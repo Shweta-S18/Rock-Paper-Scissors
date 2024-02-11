@@ -16,7 +16,7 @@ Your score and the computer’s score will be updated accordingly.
 
 ## Technologies Used
 HTML
-CSS
+CSS &
 JavaScript
 
 ## Get Started
