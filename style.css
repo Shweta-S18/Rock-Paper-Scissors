@@ -106,3 +106,48 @@ img{
     border: 2px solid var(--color);
     color : var(--btn-hover-color);
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    h1{
+        font-size: 1rem;
+    }
+    .container{
+        min-width: 300px;
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+    }   
+    .choices{
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    .choice{
+        width: 100px;
+        height: 100px;
+    }
+    img{
+        width: 80px;
+        height: 80px;
+
+    }
+    #user-score, #comp-score{
+        font-size: 2.5rem;
+    }
+    #msg, .restart-container{
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+    .restart-container{
+        height: 1rem;
+        margin-top: 2rem;
+    }
+    .msg-container{
+        margin-top: 2.5rem;
+    }
+    .score{
+        font-size: 1.5rem;
+    }
+    .score-board{
+        margin-top: 2rem;
+    }
+}
