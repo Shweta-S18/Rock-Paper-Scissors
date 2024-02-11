@@ -115,7 +115,7 @@ img{
         min-width: 300px;
         max-width: 500px;
         height: auto;
-        margin: 0 auto;
+        margin: 3rem auto 0rem;
     }   
     .choices{
         gap: 1rem;
